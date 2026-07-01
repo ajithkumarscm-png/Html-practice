@@ -1,0 +1,63 @@
+
+<html>
+    <head>
+        <title>Colspan Table</title>
+        <style>
+            th,td{ 
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body><center>
+        <h1>
+            <a href="./table-rowspan.html"><img src="./pre.png" alt="previous" width="75px" height="75px"></a>
+            <span style="color: rgba(255, 0, 0, 0.725);">Colspan Table </span></h1>
+        </center>
+        <table border="3" width="75%" height="75%" align="center" >
+            <tr>
+                <th rowspan ="2">Sr.No</th>
+                <th colspan="2">student name</th>
+                <th colspan="5">subject marks</th>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Tamil</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>Sst</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Rajini</td>
+                <td>Kanth</td>
+                <td>60</td>
+                <td>64</td>
+                <td>76</td>
+                <td>80</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ajay</td>   
+                <td>Kanth</td>
+                <td>69</td>
+                <td>75</td>
+                <td>84</td>
+                <td>90</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hari</td>
+                <td>Haran</td>
+                <td>70</td>
+                <td>84</td>
+                <td>92</td>
+                <td>70</td>
+                <td>90</td>
+            </tr>
+        </table>
+    </body>
+</html>

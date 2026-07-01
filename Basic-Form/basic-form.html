@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic-Form Task</title>
+    </head>
+    <body>
+        <h1><center><span style="color: rgb(210, 30, 171);"> Basic-Form Task</span></center></h1>
+            
+        <form method="post">
+             <table border="2"   align="center" >
+            <div>
+                <tr>               
+                     <td><label for="Product name"> Product Name:</label></td>
+                <td><input type="text" id="Product name" name="Product name"  required></td>
+            </tr>
+
+            </div>
+            <div>
+                <td><label for="Product price"> Product Price:</label></td>
+               <td> <input type="number" id="Product price" name="Product price" required></td>
+            </div>
+            <div>
+               <tr>            
+                <td><label for="Support mail">support mail:</label></td>
+                <td><input type="mail" id="suppot mail" name="support mail" required></td></tr>
+            </div>
+            <div>
+                <tr><td><label for="manufacture date">manufacture date :</label></td>
+                <td><input type="date" id="manufacture date" name="manufacture date" required></td></tr>
+            </div>
+            <div>
+              <tr><td><label for="expiry date">expiry date</label></td>
+                <td><input type="date" id="exprye date" name="exprye date" required></td></tr>  
+            </div>
+            <div><tr><td><label for="product image">Product image</label></td>
+                <td><input type="file" id="Product image" name="Product image" required></td></tr>
+                
+            </div>
+            <div><tr><td>
+                 <label for="Quality">Quality:</label></td>
+                <td><select id="Quality" name="Quality" required>
+                    <option value="">Select a Quality</option>
+                    <option value="1"> 1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select></td></tr>
+            </div>
+        <tr>    
+        <td colspan="2" align="center"><button type="submit"  >Submit</button></td>
+        </tr>
+      
+        </table>
+        </form>
+    </body>
+</html>
