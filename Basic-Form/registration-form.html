@@ -5,40 +5,40 @@
     <title>TNPSC Registration Form</title>
 </head>
 
-<body bgcolor="lightyellow">
+<body style="background: rgb(119, 216, 229);">
 
 <center>
 
-    <img src="" width="100" height="100" alt="Tamil Nadu Logo">
+    <img src="../Flag_of_Tamil_Nadu.svg.webp" width="100" height="100" alt="Tamil Nadu Logo">
 
     <h2>TAMIL NADU PUBLIC SERVICE COMMISSION</h2>
     <h3>TNPSC Registration Form</h3>
 
     <form>
 
-        <table border="2" cellpadding="8" cellspacing="0" width="650" bgcolor="white">
+        <table border="2" cellpadding="10" cellspacing="0" width="650">
 
-            <tr bgcolor="green">
-                <th colspan="2"><font color="white">Personal Details</font></th>
+            <tr span style="background: rgb(0, 30, 255);color: white;">
+                <th colspan="2"> Personal Details</th>
             </tr>
 
             <tr>
-                <td>Full Name</td>
+                <td>Full Name<span style="color: red;"> *</span></td>
+                <td><input type="text" id="Name" required></td>
+            </tr>
+
+            <tr>
+                <td>Father's Name <span style="color: red;">*</span></td>
                 <td><input type="text"></td>
             </tr>
 
             <tr>
-                <td>Father's Name</td>
-                <td><input type="text"></td>
-            </tr>
-
-            <tr>
-                <td>Date of Birth</td>
+                <td>Date of Birth <span style="color:red;">*</span></td>
                 <td><input type="date"></td>
             </tr>
 
             <tr>
-                <td>Gender</td>
+                <td>Gender <span style="color:red;">*</span></td>
                 <td>
                     <input type="radio" name="gender">Male
                     <input type="radio" name="gender">Female
@@ -46,31 +46,31 @@
                 </td>
             </tr>
 
-            <tr bgcolor="blue">
-                <th colspan="2"><font color="white">Contact Details</font></th>
+            <tr span style="background: rgb(0, 30, 255) ;color: white;">
+                <th colspan="2">Contact Details</th>
             </tr>
 
             <tr>
-                <td>Email</td>
+                <td>Email <span style="color:red;">*</span></td>
                 <td><input type="email"></td>
             </tr>
 
             <tr>
-                <td>Mobile Number</td>
+                <td>Mobile Number <span style="color:red;">*</span></td>
                 <td><input type="tel"></td>
             </tr>
 
             <tr>
-                <td>Address</td>
+                <td>Address<span style="color:red;">*</span></td>
                 <td><textarea rows="4" cols="25"></textarea></td>
             </tr>
 
-            <tr bgcolor="orange">
-                <th colspan="2"><font color="white">Education Details</font></th>
+            <tr span style="background: rgb(0, 30, 255);color: white;">
+                <th colspan="2">Education Details</th>
             </tr>
 
             <tr>
-                <td>Qualification</td>
+                <td>Qualification <span style="color:red;">*</span></td>
                 <td>
                     <select>
                         <option>Select</option>
@@ -84,17 +84,17 @@
             </tr>
 
             <tr>
-                <td>Upload Photo</td>
+                <td>Upload Photo <span style="color:red;">*</span></td>
                 <td><input type="file"></td>
             </tr>
 
             <tr>
-                <td>Upload Signature</td>
+                <td>Upload Signature <span style="color:red;">*</span></td>
                 <td><input type="file"></td>
             </tr>
 
-            <tr bgcolor="purple">
-                <th colspan="2"><font color="white">Declaration</font></th>
+            <tr span style="background: rgb(0, 30, 255); color: white;">
+                <th colspan="2">Declaration</th>
             </tr>
 
             <tr>
@@ -104,7 +104,7 @@
                 </td>
             </tr>
 
-            <tr bgcolor="lightgray">
+            <tr>
                 <td colspan="2" align="center">
                     <input type="submit" value="Register">
                     <input type="reset" value="Reset">
